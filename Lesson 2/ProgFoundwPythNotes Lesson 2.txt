@@ -14,20 +14,25 @@ After another 2 hours, prompts another break, etc.
 20150821 016CST
 What are the steps?
 
-Init and import clock libraries, browser libraries, opening browsers capabilities.
+**Init and import clock libraries**, **browser libraries**, **opening browsers capabilities**.
 
-Time tracker function
+##Time tracker function
 Track Time using Clock Import Library
+init Time Since Last Song Played counter
 if Time since last Song Played >= 2 hrs
 Do Browser Opener Function
 Do Song Player Once Browser Is Open Function
+Reset Time Since last Song Played counter
+Loop
 
-Browser Opener Function
-Use Opening Browsers Capabilities library to open browser on computer
+##Browser Opener Function
+Use **Opening Browsers Capabilities library** to open browser on computer
 
-Song Player Once Browser Is Open Function
+##Song Player Once Browser Is Open Function
 Use browser libraries to navigate to youtube page containing favorite song
 Each Random # of times b/w 1-10, Rickroll them instead.
 
 20150821 021CST
 
+Submitted the above to discussion forum. Updated with markdown and edits to Time Tracker Function.
+https://discussions.udacity.com/t/planning-the-break-f/16129/1224?u=pscheyer
