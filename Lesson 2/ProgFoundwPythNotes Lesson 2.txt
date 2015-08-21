@@ -126,4 +126,49 @@ while(break_count < total_breaks):
     print x
     break_count = break_count + 1
 [/code]
+
+20150821 1011CST
+adding a line stating [code python]
+print("This program started on "+time.ctime())
+[/code]
+
+also they tested the time.ctime() function in the output window, which has been displaying things like [code python]
+>>> ================================ RESTART ================================
+>>> 
+0
+1
+2
+>>> 
+[/code]
+
+we can test 
+[code python]
+>>> import time
+>>> time.ctime
+<built-in function ctime>
+>>> 
+[/code]
+
+time.ctime needs () at the end.
+[code python]
+>>> import time
+>>> time.ctime()
+'Fri Aug 21 10:15:04 2015'
+>>> [/code]
+
+20150821 1015CST
+20150821 1031CST
+how to quit the window: restart IDLE or use ctrl-c
+Sleep Functions work in seconds, so multiply for your 2 hrs. 10x60 (mins) x60 (hrs), x2 (2 hrs). Not gonna do that.
+
+We're learning about the Python Standard Library and other libraries.
+
+Abstraction is defined as the hiding of detail in programming. 
+20150821 1044CST
+
+Now we're checking the python standard library for documentation. [python standard library 2.7.10](https://docs.python.org/2/library/)
+scrolled down to **webbrowser** 
+says the webbrowser module provides a high-level interface to allow displaying web-based documents to users. So it shows websites. It's got webbrowser.open which takes a url and displays that url using the system's default browser.
+
+
  
