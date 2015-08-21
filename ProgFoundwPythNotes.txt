@@ -35,10 +35,45 @@ $ cd Pro<TAB> //same as last line, but moving in one more folder.
 $ git init //this tells Git to start running in that folder, tracking its changes and making it possible to use other Git commands. It only has to be run once per folder.
 $ git add . //this adds the current folders to git's staging area
 $ git commit -m '20150820 2020CST add notes file' //this is how you move stuff from the git staging area into the formal, accepted area.
-$ git remote add origin https://github.com/pscheyer/ProgFounwPy.git
+$ git remote add origin https://github.com/pscheyer/ProgFounwPy0.git
 $ git push origin master
+```
 
 The last two lines tell the git in the folder to link up with my github page, which is a place online to store project files. Cloud coding. Everybody uses github. Then it says 'update that github page with the files which have been added to the formal, accepted area.'
+
+I make it sound easy, but I had to clear out my 'remote origin' after typing ProgFoundwPy. It took two tries- take 1 i fixed the 0 on the end, take 2 i removed the d. Both times i tried 
+
+```bash
+$ git push origin master
+```
+and got an error message saying 
+
+```bash
+remote: Repository not found.
+```
+
+So I'd try to fix the remote name (noticing the error in my attempt), with something like 
+
+```bash
+$ git remote add origin https://github.com/pscheyer/ProgFounwPy0.git
+```
+and get an error like
+
+```bash
+fatal: remote origin already exists.
+```
+Which told me that I hadn't removed the origin first. So I need to do something like
+```bash
+$ git remote rm origin
+$ git remote add origin https://github.com/pscheyer/ProgFounwPy0.git
+$ git push origin master
+```
+before any of it would work. This sort of thing is normal in programming- you spend a ton of time doing random tiny debugging stuff, googling things, etc. In fact I've spent more than twice as much time documenting and debugging as I have coding at this point.
+20150820 2030CST
+
+
+
+
 
 
 
