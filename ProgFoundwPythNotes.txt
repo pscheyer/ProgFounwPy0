@@ -1,0 +1,45 @@
+20150820 1445CST
+Programming Foundations with Python Notes
+https://www.udacity.com/course/programming-foundations-with-python--ud036
+
+To get started, navigate to that page and then click 'Access Course Materials' (or 'resume course materials, if you've been there before) on the right.
+
+Video Time! Watching some videos.
+20150820 1446CST
+I set the closed-captioning on and accelerated the videos to 2x speed, because I won't be caged. 
+
+20150820 1447CST
+We're instructed to answer some questions about our knowledge of while loops and if statements. Nothing complicated- no recursivity or for loops, just basic reading code.
+
+Then we're instructed in how to add python. Mac users should click next, windows users can use the page.
+
+Installation instructions: go to website for python, find package for 2.7.10. 
+**make sure you're doing 2.7.10**, Python is basically two different languages; one is based on 2.7 and the other is based on 3. This class is 2.7-supported. 
+
+Once we install python from the pkg (if you're on linux figure out the process yourself, you don't even respect the concept of metal inherent in cages and must be strong and brave), Python is on our system. We can run it from idle.app, or the hotkey.
+
+Hotkey for idle: ⌘+Space and typing in "idle" 
+20150820 2016CST
+I also added a github repo and am adding this to it.
+
+For those unfamiliar with git, here's the process.
+
+Open a terminal window and cd into the directory for your project. I made a new set of folders for Python projects, a new folder for Programming Foundations with Python (henceforth ProgFounwPy), and cd'd into it. For me this process consisted of 
+
+```bash
+$ cd .. //I started in one of my Xcode projects in my Xcode folder
+$ cd .. //The first cd .. moved me out of the project folder and into the xcode projects folder, this one moved me out to the desktop
+$ ls //here I checked to make sure I was on the desktop.
+$ cd Py<TAB> //I used cd, and typed the first two (case sensitive) letters for my projects folder, then hit tab to autocomplete.
+$ cd Pro<TAB> //same as last line, but moving in one more folder.
+$ git init //this tells Git to start running in that folder, tracking its changes and making it possible to use other Git commands. It only has to be run once per folder.
+$ git add . //this adds the current folders to git's staging area
+$ git commit -m '20150820 2020CST add notes file' //this is how you move stuff from the git staging area into the formal, accepted area.
+$ git remote add origin https://github.com/pscheyer/ProgFounwPy.git
+$ git push origin master
+
+The last two lines tell the git in the folder to link up with my github page, which is a place online to store project files. Cloud coding. Everybody uses github. Then it says 'update that github page with the files which have been added to the formal, accepted area.'
+
+
+
+
