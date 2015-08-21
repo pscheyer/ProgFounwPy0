@@ -1,1 +1,33 @@
 20150820 2033CST
+
+20150821 013CST
+Lesson 1: Functions
+Lesson 2: Using Classes
+Lesson 3: Making Classes
+
+Lesson 1: Functions
+
+Writing a program that schedules breaks through the day. 
+Keeps track of time and every 2 hours of work it opens a browser to play favorite song.
+After another 2 hours, prompts another break, etc.
+
+20150821 016CST
+What are the steps?
+
+Init and import clock libraries, browser libraries, opening browsers capabilities.
+
+Time tracker function
+Track Time using Clock Import Library
+if Time since last Song Played >= 2 hrs
+Do Browser Opener Function
+Do Song Player Once Browser Is Open Function
+
+Browser Opener Function
+Use Opening Browsers Capabilities library to open browser on computer
+
+Song Player Once Browser Is Open Function
+Use browser libraries to navigate to youtube page containing favorite song
+Each Random # of times b/w 1-10, Rickroll them instead.
+
+20150821 021CST
+
