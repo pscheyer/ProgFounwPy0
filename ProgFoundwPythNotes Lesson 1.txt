@@ -71,7 +71,7 @@ $ git push origin master
 before any of it would work. This sort of thing is normal in programming- you spend a ton of time doing random tiny debugging stuff, googling things, etc. In fact I've spent more than twice as much time documenting and debugging as I have coding at this point.
 20150820 2030CST
 
-
+And that's it for Lesson 1.
 
 
 
