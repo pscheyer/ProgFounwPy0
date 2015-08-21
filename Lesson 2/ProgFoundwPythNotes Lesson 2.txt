@@ -76,3 +76,38 @@ import webbrowser
 time.sleep(10)
 webbrowser.open("http://www.youtube.com/watch?v=dQw4w9WgXcQ")
 [/code]
+
+20150821 924CST
+That didn't run. Troubleshot it for a while and discovered that [code python]
+time.sleep(10) [/code] needs to be [code python] time.sleep(10.0) [/code] to work properly.
+Next step is to add the loop. 
+
+Think i managed it, with
+
+[code python]
+import time
+import webbrowser
+
+i = 1
+if (i<3):
+    time.sleep(10.0)
+    webbrowser.open("http://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    i + 1
+[/code]
+
+Required some googling to work out how to handle the if statements, my first try at the [code python]
+i + 1 [/code] was [code python] i++ [/code]. That didn't work. 
+
+20150821 936CST
+Now I'm rickrolling myself every 10s. How grand. Used a for loop. 
+[code python]
+import time
+import webbrowser
+
+for x in xrange(3):
+    time.sleep(10.0)
+    webbrowser.open("http://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    print x
+[/code]
+20150821 937CST
+ 
