@@ -110,4 +110,20 @@ for x in xrange(3):
     print x
 [/code]
 20150821 937CST
+
+They initialize a total breaks count at 3 and initialize a break_count at 0, then use a while loop.
+
+[code python]
+import time
+import webbrowser
+
+total_breaks = 3
+break_count = 0
+
+while(break_count < total_breaks):
+    time.sleep(10.0)
+    webbrowser.open("http://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    print x
+    break_count = break_count + 1
+[/code]
  
