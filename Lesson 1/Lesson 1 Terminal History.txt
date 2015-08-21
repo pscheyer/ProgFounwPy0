@@ -1,0 +1,30 @@
+  530  cd ..
+  531  cd ..
+  532  l
+  533  ls
+  534  cd Python\ Projects/
+  535  cd Programming\ Foundations\ with\ Python/
+  536  git init
+  537  git add .
+  538  git commit -m '20150820 2023CST add notes file'
+  539  git remote add origin https://github.com/pscheyer/ProgFoundwPy.git
+  540  git push origin master
+  541  git remote add origin https://github.com/pscheyer/ProgFoundwPy0.git
+  542  git remote rm origin
+  543  git remote add origin https://github.com/pscheyer/ProgFoundwPy0.git
+  544  git push origin master
+  545  git remote add origin https://github.com/pscheyer/ProgFounwPy0.git
+  546  git remote rm origin
+  547  git remote add origin https://github.com/pscheyer/ProgFounwPy0.git
+  548  git push origin master
+  549  git add .
+  550  git commit -m '20150820 2031CST add notes on github incl troubleshooting for rm origin master'
+  551  git push origin master
+  552  git add .
+  553  git commit -, '20150820 2034CST finish lesson 1 file and add placeholder lesson 2 file'
+  554  git commit -m '20150820 2034CST finish lesson 1 file and add placeholder lesson 2 file'
+  555  git push origin master
+  556  git history
+  557  history
+
+20150820 2036CST
