@@ -54,3 +54,25 @@ import webbrowser
 
 That runs okay. Rickrolls me. 
 
+20150821 858CST
+now we're adding the 'wait' function. The guy defined his program as
+
+Repeat 3 times
+wait 2 hrs
+open browser
+
+Which is simpler. We've already managed Open Browser. 
+Now he googles 'python make my program wait', heads to the stackoverflow link, and it provides
+
+[code python]
+time.sleep(0.2)
+[/code]
+
+We also need to import the time module. So our current program is:
+[code python]
+import time
+import webbrowser
+
+time.sleep(10)
+webbrowser.open("http://www.youtube.com/watch?v=dQw4w9WgXcQ")
+[/code]
