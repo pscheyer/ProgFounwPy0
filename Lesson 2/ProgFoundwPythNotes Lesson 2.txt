@@ -36,3 +36,20 @@ Each Random # of times b/w 1-10, Rickroll them instead.
 
 Submitted the above to discussion forum. Updated with markdown and edits to Time Tracker Function.
 https://discussions.udacity.com/t/planning-the-break-f/16129/1224?u=pscheyer
+
+20150821 849CST
+working on the class stuff. Video is asking what I think the problem is when idle says 
+[code python]
+NameError: name 'webbrowser' is not defined
+[/code]
+
+I think it means that python doesn't know how to use webbrowser because it requires some sort of library to have been imported first that defines webbrowser.
+
+Yup, they want us to add an import command. So our program is like this:
+[code python]
+import webbrowser
+>>> webbrowser.open("http://www.youtube.com/watch?v=dQw4w9WgXcQ")
+[/code]
+20150821 855CST
+
+That runs okay. Rickrolls me. 
