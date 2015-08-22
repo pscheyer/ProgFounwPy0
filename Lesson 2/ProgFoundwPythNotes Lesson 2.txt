@@ -170,5 +170,9 @@ Now we're checking the python standard library for documentation. [python standa
 scrolled down to **webbrowser** 
 says the webbrowser module provides a high-level interface to allow displaying web-based documents to users. So it shows websites. It's got webbrowser.open which takes a url and displays that url using the system's default browser.
 
+20150822 1201CST
+mkay, in the next section they want us to teach this code to someone else. I'm not going to do that. I will ping Lucas to hit me up when he gets to that section.
 
+20150822 1203CST
+Pinged him accordingly.
  
