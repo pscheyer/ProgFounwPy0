@@ -175,4 +175,19 @@ mkay, in the next section they want us to teach this code to someone else. I'm n
 
 20150822 1203CST
 Pinged him accordingly.
+
+20150822 1648CST
+more examples of functions. We're seeing a program that removes the numbers from filenames. We're to write the steps for a program that does this.
+
+20150823 1050CST
+Met with Lucas and discussed documentation 
+
+Docs for Python: 
+webbrowser.open - https://docs.python.org/2/library/webbrowser.html
+
+Compared to Apple docs (incomprehensible) for NSArray-
+https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/index.html
+
+
+
  
