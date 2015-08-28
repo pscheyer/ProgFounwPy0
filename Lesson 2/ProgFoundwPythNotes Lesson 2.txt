@@ -188,6 +188,25 @@ webbrowser.open - https://docs.python.org/2/library/webbrowser.html
 Compared to Apple docs (incomprehensible) for NSArray-
 https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/Classes/NSArray_Class/index.html
 
+20150828 043CST
+steps for program that removes numbers from filename:
+select directory/move to proper location
+Make list of files to be modified
+select first file
+select filename of first file
+	Function- remove # from string
+	iterate over string (filename)
+		if item is a number
+			remove
+		elseif
+			next item
+	continue until end of filename (use a length counter and shorten it as each item is examined)
+select filename of next file
+	function- remove # from string
+repeat until all filenames have been modified.
+
+
+
 
 
  
