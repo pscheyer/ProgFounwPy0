@@ -208,6 +208,16 @@ repeat until all filenames have been modified.
 20150831 2339CST
 Recommended steps from the video
 1) get filenames
+2) For each file
+	-rename, meaning remove all numbers from the filename
+
+20150831 2349CST
+added files
+
+20150901 024CST
+create a new file in idle, name it rename_files.py. 
+Open idle with cmd-space, type idle into search window.
+file -> new file
 
 
 
