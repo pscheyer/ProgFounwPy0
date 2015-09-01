@@ -205,6 +205,9 @@ select filename of next file
 	function- remove # from string
 repeat until all filenames have been modified.
 
+20150831 2339CST
+Recommended steps from the video
+1) get filenames
 
 
 
